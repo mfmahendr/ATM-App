@@ -3,8 +3,8 @@ from atm_card import AtmCard
 class Customer:
     def __init__(self, id, custPin, custBalance):
         self.id = id
-        self.custPin = custPin
-        self.custBalance = custBalance
+        self.pin = custPin
+        self.balance = custBalance
 
     def checkId(self):
         return self.id
